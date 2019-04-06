@@ -1,5 +1,7 @@
 package pattern.factory.staticfactory;
 
+import pattern.factory.product.Vehicle;
+
 /**
  * 简单工厂测试方法
  */

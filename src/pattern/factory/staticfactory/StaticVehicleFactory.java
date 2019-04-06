@@ -1,5 +1,9 @@
 package pattern.factory.staticfactory;
 
+import pattern.factory.product.Bus;
+import pattern.factory.product.Car;
+import pattern.factory.product.Vehicle;
+
 /**
  * 静态工厂/简单工厂
  * 根据创建信息返回对应实例

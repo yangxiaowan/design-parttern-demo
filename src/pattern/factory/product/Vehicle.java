@@ -1,4 +1,4 @@
-package pattern.factory.staticfactory;
+package pattern.factory.product;
 
 public interface Vehicle {
 
