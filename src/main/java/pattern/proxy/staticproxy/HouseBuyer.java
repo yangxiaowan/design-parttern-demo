@@ -6,7 +6,6 @@ public class HouseBuyer implements BuyHouse{
         System.out.println("我想买房子!");
     }
 
-    @Override
     public void purchaseHouse() {
         System.out.println("房子买到了!");
     }

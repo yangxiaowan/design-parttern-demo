@@ -11,11 +11,10 @@ public class JDKDynamicProxy implements InvocationHandler {
         this.buyHouse = buyHouse;
     }
 
-    @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("需要交纳定金!");
-        method.invoke(buyHouse, args);
+        Object object = method.invoke(buyHouse, args);
         System.out.println("交易完成，祝您购房愉快!");
-        return null;
+        return object;
     }
 }
