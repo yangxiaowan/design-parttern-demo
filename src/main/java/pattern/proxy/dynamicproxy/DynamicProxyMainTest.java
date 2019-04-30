@@ -18,7 +18,6 @@ public class DynamicProxyMainTest {
         );
         buyHouse1.purchaseHouse();
 
-
         HouseSaver houseSaver = new HouseSaver();
         InvocationHandler invocationHandler2 = new JDKDynamicProxy(houseSaver);
         BuyHouse buyHouse2 = (BuyHouse)Proxy.newProxyInstance(

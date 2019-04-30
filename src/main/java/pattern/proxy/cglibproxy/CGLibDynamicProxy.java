@@ -4,6 +4,9 @@ import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;
 
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.lang.reflect.Method;
 
 public class CGLibDynamicProxy implements MethodInterceptor {

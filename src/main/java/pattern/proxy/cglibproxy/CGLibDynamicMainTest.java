@@ -7,6 +7,7 @@ import pattern.proxy.staticproxy.HouseBuyer;
 public class CGLibDynamicMainTest {
 
     public static void main(String[] args) {
+
         HouseBuyer houseBuyer = new HouseBuyer();
         CGLibDynamicProxy cgLibDynamicProxy = new CGLibDynamicProxy(houseBuyer);
         BuyHouse buyHouse  = (BuyHouse) cgLibDynamicProxy.getBuyHouseInstance();
