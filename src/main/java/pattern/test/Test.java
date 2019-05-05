@@ -23,8 +23,7 @@ public class Test {
         }
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         ArrayList<String> list = new ArrayList<>();
         inOrderVisited(list, 2 , true);
         String[] strArray = list.toArray(new String[list.size()]);
